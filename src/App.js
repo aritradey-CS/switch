@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './App.css';
 import on from './images/light-bulb-on.png';
 import off from './images/light-bulb-off.png';
-import noticeBoardImage from './images/noticeboard.png'; // Add the path to your notice board image
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
@@ -24,12 +23,12 @@ const App = () => {
       <button className="button" onClick={toggleButton}>
         {toggle ? 'Turn On' : 'Turn Off'}
       </button>
-      <div
-        className={`notice-board ${document.body.style.backgroundColor === 'white' ? 'visible' : 'hidden'}`}
-        style={{ backgroundImage: `url(${noticeBoardImage})` }}
-      >
-        <p>This is the notice board content.</p>
-      </div>
+      {document.body.style.backgroundColor === 'white' && (
+        <div className="notice-board">
+          <img src="/images/noticeboard.png" alt="Notice Board" />
+          <p>This is the notice board content.</p>
+        </div>
+      )}
     </div>
   );
 };
