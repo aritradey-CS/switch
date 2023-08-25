@@ -6,6 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  transition: background-color 0.3s ease;
 }
 
 .container {
@@ -29,9 +30,31 @@ body {
   padding: 10px 8px;
   font-size: 14px;
   cursor: pointer;
-  transition: background-color 0.3s ease
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
   background-color: #0056b3;
+}
+
+.notice-board {
+  display: none;
+  margin-top: 20px;
+  width: 100%; /* Make the notice board full width */
+  max-width: 800px; /* Adjust the max-width as needed */
+  background-image: url('./images/noticeboard.png'); /* Add the path to your notice board image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: opacity 0.3s ease;
+}
+
+.notice-board.visible {
+  display: block;
+  opacity: 1;
+}
+
+.notice-board.hidden {
+  opacity: 0;
 }

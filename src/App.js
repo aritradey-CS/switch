@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import on from './images/light-bulb-on.png';
 import off from './images/light-bulb-off.png';
-import noticeBoardImage from './images/pngwing.com.png'; // Add the path to your notice board image
+import noticeBoardImage from './images/noticeboard.png'; // Add the path to your notice board image
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
