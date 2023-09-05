@@ -16,19 +16,13 @@ const App = () => {
   };
 
   return (
-    <div className={`container ${toggle ? 'bg-black' : 'bg-white'}`}>
+    <div className="container">
       <div className="bulb-container">
         <img src={toggle ? on : off} className="bulb" alt="" />
       </div>
       <button className="button" onClick={toggleButton}>
         {toggle ? 'Turn On' : 'Turn Off'}
       </button>
-      {document.body.style.backgroundColor === 'white' && (
-        <div className="notice-board">
-          <img src="/images/noticeboard.png" alt="Notice Board" />
-          <p>This is the notice board content.</p>
-        </div>
-      )}
     </div>
   );
 };
