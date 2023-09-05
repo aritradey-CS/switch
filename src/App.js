@@ -21,7 +21,7 @@ const App = () => {
         <img src={toggle ? on : off} className="bulb" alt="" />
       </div>
       <button className="button" onClick={toggleButton}>
-        {toggle ? 'Turn Off' : 'Turn On'}
+        {toggle ? 'Turn On' : 'Turn Off'}
       </button>
     </div>
   );
