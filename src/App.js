@@ -8,6 +8,11 @@ const App = () => {
 
   const toggleButton = () => {
     setToggle(!toggle);
+    if (toggle) {
+      document.body.style.backgroundColor = '#000000'; // Background is black when turned off
+    } else {
+      document.body.style.backgroundColor = '#ffffff'; // Background is white when turned on
+    }
   };
 
   return (
