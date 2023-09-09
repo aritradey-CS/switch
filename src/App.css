@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body {
 }
 
 .bulb {
-  max-width: 100%;
+  max-width: 50vh;
   height: auto;
 }
 

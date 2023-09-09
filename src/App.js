@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import on from './images/on.png';
-import off from './images/off.png';
+import on from './images/Bulb_on.jpg';
+import off from './images/Bulb_off.jpg';
 
 const App = () => {
   const [toggle, setToggle] = useState(false);
