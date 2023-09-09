@@ -4,7 +4,7 @@ const LightBulb = ({ isOn }) => {
   return (
     <div className="light-bulb">
       <img
-        src={isOn ? '/images/bulb_on.jpg' : '/images/bulb_off.jpg'}
+        src={isOn ? '/on.png' : '/off.png'}
         alt={isOn ? 'Bulb On' : 'Bulb Off'}
       />
     </div>
