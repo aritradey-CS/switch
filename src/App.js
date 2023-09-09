@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import LightBulb from '../src/components/LightBulb';
+import Button from '../src/components/Button';
+import NoticeBoard from '../src/components/NoticeBoard';
 
 function App() {
+  const [isOn, setIsOn] = useState(false);
+
+  const handleClick = () => {
+    setIsOn(!isOn);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${isOn ? 'light-background' : 'dark-background'}`}>
+      <LightBulb isOn={isOn} />
+      <Button handleClick={handleClick} isOn={isOn} />
+      <NoticeBoard isOn={isOn} />
     </div>
   );
 }
