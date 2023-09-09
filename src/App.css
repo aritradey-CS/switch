@@ -1,10 +1,37 @@
-
-.bulb{
-  height: 45vh;
-  width: 35vw;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.button{
-  height: 10vh;
-  width: 10vw;
-  font-size: 20ch;
+
+.container {
+  text-align: center;
+}
+
+.bulb-container {
+  margin-bottom: 20px;
+}
+
+.bulb {
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
 }
