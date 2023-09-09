@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/aritradey-CS/switch/static/css/main.e5f9f4c3.css",
+    "main.js": "/aritradey-CS/switch/static/js/main.1af13f1b.js",
+    "static/js/787.dd5ea308.chunk.js": "/aritradey-CS/switch/static/js/787.dd5ea308.chunk.js",
+    "static/media/noticeboard.png": "/aritradey-CS/switch/static/media/noticeboard.ed895c5c2c9703870d9f.png",
+    "static/media/light-bulb-off.png": "/aritradey-CS/switch/static/media/light-bulb-off.1d8c7cf19cec25260d65.png",
+    "static/media/light-bulb-on.png": "/aritradey-CS/switch/static/media/light-bulb-on.d7824131fda1fa43d9ac.png",
+    "index.html": "/aritradey-CS/switch/index.html",
+    "main.e5f9f4c3.css.map": "/aritradey-CS/switch/static/css/main.e5f9f4c3.css.map",
+    "main.1af13f1b.js.map": "/aritradey-CS/switch/static/js/main.1af13f1b.js.map",
+    "787.dd5ea308.chunk.js.map": "/aritradey-CS/switch/static/js/787.dd5ea308.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5f9f4c3.css",
+    "static/js/main.1af13f1b.js"
+  ]
+}
