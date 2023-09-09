@@ -1,7 +1,14 @@
 import React from 'react';
 
 const LightBulb = ({ isOn }) => {
-  return <div className={`light-bulb ${isOn ? 'on' : 'off'}`}></div>;
+  return (
+    <div className="light-bulb">
+      <img
+        src={isOn ? './images/bulb_on' : './images/bulb_off'}
+        alt={isOn ? 'Bulb On' : 'Bulb Off'}
+      />
+    </div>
+  );
 };
 
 export default LightBulb;
