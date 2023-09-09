@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/aritradey-CS/switch/static/css/main.e5f9f4c3.css",
-    "main.js": "/aritradey-CS/switch/static/js/main.1af13f1b.js",
-    "static/js/787.dd5ea308.chunk.js": "/aritradey-CS/switch/static/js/787.dd5ea308.chunk.js",
-    "static/media/noticeboard.png": "/aritradey-CS/switch/static/media/noticeboard.ed895c5c2c9703870d9f.png",
-    "static/media/light-bulb-off.png": "/aritradey-CS/switch/static/media/light-bulb-off.1d8c7cf19cec25260d65.png",
-    "static/media/light-bulb-on.png": "/aritradey-CS/switch/static/media/light-bulb-on.d7824131fda1fa43d9ac.png",
-    "index.html": "/aritradey-CS/switch/index.html",
-    "main.e5f9f4c3.css.map": "/aritradey-CS/switch/static/css/main.e5f9f4c3.css.map",
-    "main.1af13f1b.js.map": "/aritradey-CS/switch/static/js/main.1af13f1b.js.map",
-    "787.dd5ea308.chunk.js.map": "/aritradey-CS/switch/static/js/787.dd5ea308.chunk.js.map"
+    "main.css": "/switch/static/css/main.b4281e08.css",
+    "main.js": "/switch/static/js/main.c69300b0.js",
+    "static/js/787.dd5ea308.chunk.js": "/switch/static/js/787.dd5ea308.chunk.js",
+    "static/media/noticeboard.png": "/switch/static/media/noticeboard.ed895c5c2c9703870d9f.png",
+    "static/media/light-bulb-off.png": "/switch/static/media/light-bulb-off.1d8c7cf19cec25260d65.png",
+    "static/media/light-bulb-on.png": "/switch/static/media/light-bulb-on.d7824131fda1fa43d9ac.png",
+    "index.html": "/switch/index.html",
+    "main.b4281e08.css.map": "/switch/static/css/main.b4281e08.css.map",
+    "main.c69300b0.js.map": "/switch/static/js/main.c69300b0.js.map",
+    "787.dd5ea308.chunk.js.map": "/switch/static/js/787.dd5ea308.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5f9f4c3.css",
-    "static/js/main.1af13f1b.js"
+    "static/css/main.b4281e08.css",
+    "static/js/main.c69300b0.js"
   ]
 }
