@@ -1,23 +1,22 @@
-import React, { useState } from 'react';
-import './App.css';
-import LightBulb from '../src/components/LightBulb';
-import Button from '../src/components/Button';
-import NoticeBoard from '../src/components/NoticeBoard';
+import React, { useState } from 'react'
+import './App.css'
+import on from './images/on.png'
+import off from './images/off.png'
 
-function App() {
-  const [isOn, setIsOn] = useState(false);
+const App = () => {
+  const [toggle, settoggle] = useState(false)
 
-  const handleClick = () => {
-    setIsOn(!isOn);
-  };
-
+  const togglebutton = ()=>{
+    settoggle(!toggle)
+  }
   return (
-    <div className={`App ${isOn ? 'light-background' : 'dark-background'}`}>
-      <LightBulb isOn={isOn} />
-      <Button handleClick={handleClick} isOn={isOn} />
-      <NoticeBoard isOn={isOn} />
+    <div align="center">
+
+      <img src={toggle?on:off} className='bulb' alt='' />
+      <button className='button' onClick={togglebutton} >{toggle?'on':'off'}</button>
+      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
